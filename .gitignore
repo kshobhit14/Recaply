@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded/generated files
+uploads/*
+backend/uploads/*
+!uploads/.gitkeep
+!backend/uploads/.gitkeep
+
+# Audio/video files
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.webm
+
+# Generated transcripts
+*-transcript.txt
+
+# Local Whisper models/binaries
+*.bin
+whisper/models/
+whisper-cpp-win32-x64-cpu.exe
+
+# Ollama/local AI
+.ollama/
+Ollama/
+
+# Build output
+dist/
+.build/
+.svelte-kit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

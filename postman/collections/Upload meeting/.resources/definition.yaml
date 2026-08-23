@@ -1,0 +1,6 @@
+$kind: collection
+name: "Upload meeting "
+variables:
+  - key: json_web_token_0s8t
+    secret: true
+    disabled: false
