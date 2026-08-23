@@ -4,6 +4,8 @@
 
 Recaply is a full-stack AI meeting summarizer built with SvelteKit, Node.js/Express, MongoDB, OpenAI Whisper, and the OpenAI API.
 
+## Demo Video Link- https://youtu.be/rpTN9Vvz-J0
+
 ## Features
 
 - Meeting audio upload
